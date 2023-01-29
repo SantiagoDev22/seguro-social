@@ -14,8 +14,8 @@ return new class extends Migration
     public function up()
     {
         Schema::create('Sector', function (Blueprint $table) {
-            $table->Bigincrements('id_sector')
-            $table->Char('sector',150)
+            $table->Bigincrements('id_sector');
+            $table->Char('sector',150);
             
 
             

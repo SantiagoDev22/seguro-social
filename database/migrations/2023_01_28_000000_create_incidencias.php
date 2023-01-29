@@ -14,9 +14,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('Incidencias', function (Blueprint $table) {
-            $table->Bigincrements('id_Incidencias')
-            $table->Char('incidencia', 50)
-            $table->Char('dias_normado', 50)
+            $table->Bigincrements('id_Incidencias');
+            $table->Char('incidencia', 50);
+            $table->Char('dias_normado', 50);
             
         });
     }

@@ -14,15 +14,15 @@ return new class extends Migration
     public function up()
     {
         Schema::create('Creditos', function (Blueprint $table) {
-            $table->Bigincrements('id_Creditos')
-            $table->Char('num_creditos',50)
-            $table->Char('importe',250)
-            $table->Char('t_doc',50)
+            $table->Bigincrements('id_Creditos');
+            $table->Char('num_creditos',50);
+            $table->Char('importe',250);
+            $table->Char('t_doc',50);
             $table->$table->dateTime('fecha_alta', $precision = 0);
             $table->$table->dateTime('fecha_circunstanciada', $precision = 0);
             $table->$table->dateTime('fecha_termino', $precision = 0);
-            $table->Char('id_registron_patronal',50)
-            $table->Char('id_oficinadevolvimiento',50)
+            $table->Char('id_registron_patronal',50);
+            $table->Char('id_oficinadevolvimiento',50);
         });
     }
 

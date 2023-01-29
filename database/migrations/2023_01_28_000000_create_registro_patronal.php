@@ -14,14 +14,14 @@ return new class extends Migration
     public function up()
     {
         Schema::create('registro_patronal', function (Blueprint $table) {
-            $table->Bigincrements('id_registro_patronal')
-            $table->Char('nombre',200)
-            $table->Char('calle',200)
-            $table->Char('numero_ext',10)
-            $table->Char('numero_int',10)
-            $table->Char('municipio',200)
-            $table->Char('estado',200)
-            $table->Char('estado',200)
+            $table->Bigincrements('id_registro_patronal');
+            $table->Char('nombre',200);
+            $table->Char('calle',200);
+            $table->Char('numero_ext',10);
+            $table->Char('numero_int',10);
+            $table->Char('municipio',200);
+            $table->Char('estado',200);
+            $table->Char('estado',200);
         });
     }
 

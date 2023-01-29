@@ -14,8 +14,8 @@ return new class extends Migration
     public function up()
     {
         Schema::create('Movimientos', function (Blueprint $table) {
-            $table->Bigincrements('id_Movimientos')
-            $table->Char('movimiento', 150)
+            $table->Bigincrements('id_Movimientos');
+            $table->Char('movimiento', 150);
             
 
             

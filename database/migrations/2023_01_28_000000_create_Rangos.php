@@ -14,12 +14,12 @@ return new class extends Migration
     public function up()
     {
         Schema::create('Rango', function (Blueprint $table) {
-            $table->Bigincrements('id_Rango')
-            $table->Char('rango', 50)
-            $table->Char('smvdf', 50)
+            $table->Bigincrements('id_Rango');
+            $table->Char('rango', 50);
+            $table->Char('smvdf', 50);
             $table->dateTime('anio', $precision = 0);
-            $table->Char('max_rango', 50)
-            $table->Char('min_rango', 50)
+            $table->Char('max_rango', 50);
+            $table->Char('min_rango', 50);
             
 
             
